@@ -1,0 +1,7 @@
+happiness: arousal < 0.5, variance > +0.5
+surprise/excited: arousal > 0.5, variance < +0.5
+fear: arousal > 0.66, variance > -0.33
+anger: 0.33 < arousal < 0.66, -0.33 > variance > -0.66
+disgust/contempt: arousal < 0.33, variance < -0.66
+sadness: -arousal, -variance
+
